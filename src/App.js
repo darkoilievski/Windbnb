@@ -43,7 +43,10 @@ function App() {
           .filter((property) => {
             return inputState.toLowerCase() === ""
               ? property
-              : property.city.toLowerCase().includes(inputState.toLowerCase());
+              : property.city
+                  .toLowerCase()
+                  .includes(inputState.toLowerCase()) &&
+                  number <= property.maxGuests;
           })
           .map((property) => {
             return (
