@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  margin-inline: 9rem;
+}
+
+.main__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #333333;
+}
+
+.number__stays {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #4f4f4f;
+  margin-right: 1rem;
+}
