@@ -23,3 +23,17 @@
   color: #4f4f4f;
   margin-right: 1rem;
 }
+
+@media (max-width: 1000px) {
+  .main {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .main__header {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+}

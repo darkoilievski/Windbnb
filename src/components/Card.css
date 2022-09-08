@@ -61,3 +61,26 @@
   gap: 3rem;
   padding-inline: 9.4rem;
 }
+
+@media (max-width: 1000px) {
+  .properties__card {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .properties__card {
+    justify-content: center;
+    padding-inline: 1.3rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .card__img {
+    width: 30rem;
+  }
+  .properties__card {
+    width: 30rem;
+    margin: 0 auto;
+  }
+}
